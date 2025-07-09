@@ -1,111 +1,120 @@
-HTML (HyperText Markup Language)
-HypertText: Representa textos puros, como em livros, revistas e jornais. Permite a criação de links para acessar outros documentos, além de incorporar imagens, vídeos e áudios.
+📘 Fundamentos da Web e Inteligência Artificial
+Este repositório contém uma introdução organizada aos principais conceitos que envolvem o desenvolvimento web moderno e o uso de modelos de linguagem baseados em IA. Ideal para iniciantes e entusiastas que querem entender a base da web e como interagir com ferramentas de IA como o ChatGPT.
 
-Markup (Marcação): Utiliza tags (ex: <a href="...">Link</a>) para estruturar o conteúdo.
+🌐 HTML (HyperText Markup Language)
+HyperText: Textos interligados como em livros e artigos, com suporte a links, imagens, vídeos e áudios.
+Markup (Marcação): Uso de tags para estruturar o conteúdo. Exemplo:
 
-Atributos: Modificam o comportamento das tags. Podem ser:
+html
+Copiar
+Editar
+<a href="https://example.com">Link</a>
+Atributos: Modificam o comportamento das tags.
 
-Globais: Aplicáveis a qualquer tag (ex: id, class).
+Globais: válidos para qualquer tag (ex: id, class).
 
-Language (Linguagem): Define a sintaxe, ou seja, a maneira correta de escrever o código.
+Language: Define a sintaxe correta do HTML.
 
-HTTP (HyperText Transfer Protocol)
-HyperText Transfer Protocol: Um conjunto de regras que governa a transferência de dados na web.
+🔁 HTTP (HyperText Transfer Protocol)
+Protocolo de comunicação entre cliente e servidor na web.
 
-Methods HTTP (Verbos): Ações que podem ser realizadas em um recurso:
+Métodos (Verbos HTTP)
+GET: Solicita dados.
 
-GET: Solicitar dados.
+POST: Envia dados.
 
-POST: Enviar dados.
+PUT / PATCH: Atualiza dados.
 
-PATCH/PUT: Atualizar dados.
+DELETE: Remove dados.
 
-DELETE: Remover dados.
+Headers (Cabeçalhos)
+Informações adicionais sobre a requisição ou resposta.
 
-Headers (Cabeçalhos): Fornecem instruções ou informações extras para cada chamada.
+🌍 URL (Uniform Resource Locator)
+Endereço usado para localizar um recurso na web (ex: HTML, CSS, JS, PDF, JPG).
 
-URL (Uniform Resource Locator)
-Uniform Resource Locator: Um localizador uniforme de recurso. É o endereço usado para encontrar um recurso na web (ex: HTML, CSS, JS, PDF, JPG, MP4, MP3).
+🧠 IP (Internet Protocol)
+Endereço numérico de um computador na internet. Exemplo: 123.45.67.89.
 
-IP (Internet Protocol)
-Internet Protocol: Um conjunto de regras para comunicação na rede mundial de computadores. É o endereço numérico de um computador (ex: 123.32.1.23).
+Domínios: Nomes amigáveis como rocketseat.com.br.
 
-Domínios (ex: rocketseat.com.br) são nomes amigáveis que correspondem a endereços IP.
+DNS (Domain Name System): Traduz nomes de domínio para endereços IP.
 
-DNS (Domain Name System)
-Domain Name Server: Um servidor que traduz nomes de domínio em endereços IP, permitindo que os navegadores encontrem os sites.
+🎨 CSS (Cascading Style Sheets)
+Define o estilo e a aparência do conteúdo HTML.
 
-CSS (Cascading Style Sheets)
-Cascading (Cascata): Refere-se às regras de escrita que definem a hierarquia e a especificidade de como os estilos são aplicados.
+Cascading (Cascata): Regras de hierarquia e especificidade.
 
-Style Sheet (Folha de Estilo): Um arquivo que contém declarações de estilo com seletores, propriedades e valores. O CSS impacta visualmente o HTML.
+Folha de Estilo: Define estilos com seletores, propriedades e valores.
 
-JS (JavaScript)
-Linguagem de Programação:
+📜 JavaScript (JS)
+Linguagem de programação para interatividade e lógica na web.
 
-Browsers: Permite interagir com o navegador (ex: modificar a página).
-
-Input -> Process -> Output: Uma sequência lógica de operações.
+Conceitos básicos
+Entrada → Processamento → Saída
 
 Variáveis: Armazenam dados.
 
-Function (Função): Um agrupamento de código para reuso e para realizar uma sequência lógica de passos, produzindo uma saída.
+Funções: Blocos reutilizáveis de código.
 
-Estrutura de Dados: Organiza informações.
+Estruturas de Decisão: Controle de fluxo com if, else, etc.
 
-Estrutura de Decisão: Controla o fluxo do programa com base em condições.
+Estrutura de Dados: Organização de informações (Arrays, Objects, etc.).
 
-Algoritmo: Uma sequência de passos lógica e ordenada para chegar a uma conclusão (limitada).
+Algoritmo: Passos ordenados para resolver problemas.
 
-Lógica (Pensamento Computacional):
+Pensamento Computacional
+Abstração: Focar no essencial.
 
-Abstração: Simplificar problemas complexos.
+Decomposição: Dividir problemas complexos.
 
-Decomposição: Quebrar um problema em partes menores.
+Algoritmos: Sequência de passos.
 
-Algoritmo: Criar a sequência de passos.
+Reconhecimento de Padrões: Identificar soluções reutilizáveis.
 
-Reconhecimento de Padrão: Identificar similaridades para soluções.
-
-Tipos de Dados:
-
+Tipos de Dados
 Number: Números.
 
-String: Textos (usando "", '', `).
+String: Textos ("", '', `).
 
-Boolean: Valores lógicos (true ou false).
+Boolean: true ou false.
 
-Objects: Estruturas de dados mais complexas.
+Object: Estrutura com pares chave: valor.
 
-DOM (Document Object Model)
-Document Object Model: Uma API (Application Programming Interface) que representa a estrutura de uma página HTML como um objeto, permitindo que JavaScript acesse e manipule o conteúdo, a estrutura e o estilo do documento.
+🧾 DOM (Document Object Model)
+Representa a estrutura HTML como objetos manipuláveis pelo JavaScript.
 
-JSON (JavaScript Object Notation)
-JavaScript Object Notation: Um formato leve de intercâmbio de dados, amplamente utilizado para comunicação entre sistemas.
+📦 JSON (JavaScript Object Notation)
+Formato leve e estruturado para troca de dados entre sistemas.
+Exemplo:
 
-CDN (Content Delivery Network)
-Content Delivery Network: Uma rede de servidores distribuídos globalmente que entrega conteúdo web aos usuários de forma mais rápida e eficiente.
+json
+Copiar
+Editar
+{
+  "nome": "Leonardo",
+  "idade": 20
+}
+🌐 CDN (Content Delivery Network)
+Rede de servidores espalhados globalmente para entregar conteúdo de forma rápida e eficiente.
 
-LLM (Large Language Model)
-Large Language Model: Modelos de linguagem baseados em inteligência artificial, como:
+🤖 LLM (Large Language Model)
+Modelos de IA capazes de entender e gerar linguagem humana.
 
-Gemini (Google)
-
+Exemplos
 OpenAI (ChatGPT)
+
+Google (Gemini)
 
 Anthropic (Claude)
 
-Agentes AI: Sistemas de IA que podem interagir com o ambiente e tomar decisões.
+Agentes de IA
+Sistemas autônomos que interagem com o ambiente e tomam decisões.
 
-Tools (Ferramentas): Recursos que permitem aos LLMs usar código, aplicativos ou qualquer informação extra para melhorar a resposta.
+Tools (Ferramentas)
+Permitem aos LLMs acessar dados, códigos ou sistemas externos para melhorar a resposta.
 
-Melhor Contexto: A qualidade da saída da IA depende do contexto fornecido.
+Engenharia de Prompt
+A arte de criar boas instruções para obter boas respostas de IA.
 
-Engenharia de Prompt: A arte de criar instruções eficazes para LLMs:
-
-One-shot: Uma única pergunta sem muito contexto.
-
-Few-shot: Apresenta exemplos do que se espera.
-
-Chain of Thought: Instrução para a IA responder gradativamente, seguindo uma linha de raciocínio.
-
+Melhor contexto → melhor resultado
